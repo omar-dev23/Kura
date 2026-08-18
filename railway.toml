@@ -1,0 +1,8 @@
+[build] 
+builder = "nixpacks" 
+ 
+[variables] 
+NIXPACKS_NET_VERSION = "8.0" 
+ 
+[deploy] 
+startCommand = "dotnet Kura.API.dll" 
